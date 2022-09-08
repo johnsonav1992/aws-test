@@ -7,7 +7,7 @@ function App() {
 
   const handleClick = () => {
     axios
-      .get('http://localhost:4000/word')
+      .get('/word')
       .then(({data}) => {
         setWord(data)
       })
